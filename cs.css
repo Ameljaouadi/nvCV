@@ -1,0 +1,48 @@
+body{
+	margin: 5px;;
+	padding: 5px;;
+}
+.partie_gauche{
+	width:25%;
+	float:left;
+	background-color: rgb(149, 201, 243);
+	margin:0;
+   padding: 20px;
+}
+
+.partie_droite{
+	float:right;
+	background-color:
+rgba(255, 255, 255, 0.521);
+	width:70%;
+	margin:0;
+   
+   
+}
+.cerif{
+   display: grid;
+   grid-template-columns: auto auto;
+}
+h1{
+   text-align: center;
+   font-size: 50px;
+}
+#entete img{
+   
+    width: 200px;
+    height:200px;
+    border-radius : 97%;
+}
+#entete{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.formation{
+   display: grid;
+   grid-template-columns: auto auto;
+   
+}
+
+
