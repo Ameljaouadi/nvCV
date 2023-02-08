@@ -1,6 +1,7 @@
 body{
-	margin: 5px;;
-	padding: 5px;;
+	margin: 5px;
+	padding: 5px;
+ 
 }
 .partie_gauche{
 	width:25%;
@@ -15,7 +16,7 @@ body{
 	background-color:
 rgba(255, 255, 255, 0.521);
 	width:70%;
-	margin:0;
+	margin: 20px;
    
    
 }
@@ -25,13 +26,16 @@ rgba(255, 255, 255, 0.521);
 }
 h1{
    text-align: center;
-   font-size: 50px;
+   font-size: 55px;
+   font-style: initial;
+    
 }
 #entete img{
    
     width: 200px;
     height:200px;
     border-radius : 97%;
+    
 }
 #entete{
    display: flex;
@@ -44,5 +48,6 @@ h1{
    grid-template-columns: auto auto;
    
 }
+
 
 
